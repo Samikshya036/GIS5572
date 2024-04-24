@@ -21,6 +21,6 @@ Our project aims to develop a system that provides Minnesota corn growers with u
 - Soil Moisture: [Soil Moisture Data URL](https://googlecloudrun-nvrttyom5q-uc.a.run.app/get_soil_moisture)
 
 ## Contributors 
-- Tzu-Yu Ma  
 - Samikshya Subedi
+- Tzu-Yu Ma  
 
