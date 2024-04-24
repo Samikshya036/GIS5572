@@ -17,7 +17,7 @@ Our project aims to develop a system that provides Minnesota corn growers with u
 
 ## Data URLs for App
 - AGDD: [AGDD Data URL](https://googlecloudrun-nvrttyom5q-uc.a.run.app/get_agdd_idw)
-- ET: https://www.google.com/url?q=https://app.climateengine.org/climateEngine&sa=D&source=docs&ust=1713972983916422&usg=AOvVaw1lAzGU9nRxIB8jtQqfJjtL
+- ET:[ET Data URL](https://www.google.com/url?q=https://app.climateengine.org/climateEngine&sa=D&source=docs&ust=1713972983916422&usg=AOvVaw1lAzGU9nRxIB8jtQqfJjtL)
 - Soil Moisture: [Soil Moisture Data URL](https://googlecloudrun-nvrttyom5q-uc.a.run.app/get_soil_moisture)
 
 ## Contributors 
