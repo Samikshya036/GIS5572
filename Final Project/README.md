@@ -1,8 +1,8 @@
-# Developing a Web Map for Minnesota Corn Growers
+# Minnesota Corn Growers App
 ![GitHub last commit](https://img.shields.io/github/last-commit/TzuYuMa/Corn?style=for-the-badge)
 
 ## Overview  
-Our project aims to develop a system that provides Minnesota corn growers with updated information on growing degree days (AGDD), soil moisture, and reference evapotranspiration (ET). Utilizing GeoJSON format from APIs, the data will be visualized through web maps. This supports agricultural decision-making in Minnesota by facilitating the comparison of various models for accurate analysis.
+This app aims to provide Minnesota corn growers with updated information on growing degree days (AGDD), soil moisture, and reference evapotranspiration (ET). Selecting the desire area to download data with CSV or PDF file, or you can find the [Data URLs for GeoJson](#data-urls-for-geojson) Utilizing GeoJSON format from APIs. This supports agricultural decision-making in Minnesota by facilitating the comparison of various models for accurate analysis.
 
 ## Objectives  
 - Develop a system to calculate and map AGDD, ET, and soil moisture for Minnesota Corn Growers.
@@ -15,11 +15,23 @@ Our project aims to develop a system that provides Minnesota corn growers with u
 - **NASA SMAP**: Soil Moisture, Minnesota.
 - **TerraClimate**: Actual Evapotranspiration, Global.
 
-## Data URLs for App
+## Data URLs for GeoJson
 - AGDD: [AGDD Data URL](https://googlecloudrun-nvrttyom5q-uc.a.run.app/get_agdd_idw)
-- ET:[ET Data URL](https://www.google.com/url?q=https://app.climateengine.org/climateEngine&sa=D&source=docs&ust=1713972983916422&usg=AOvVaw1lAzGU9nRxIB8jtQqfJjtL)
-- Soil Moisture: [Soil Moisture Data URL](https://googlecloudrun-nvrttyom5q-uc.a.run.app/get_soil_moisture)
 
+- ET: [ET Data URL]
+- Soil Moisture:
+  ```python
+  https://googlecloudrun-nvrttyom5q-uc.a.run.app/get_soil_moisture_<date>
+  ```
+  Please manually replace `<date>` with the desired year and month in your browser's address bar
+
+
+  Available date range: 20237-20244
+
+  For example:
+  
+  ```plaintext
+  https://googlecloudrun-nvrttyom5q-uc.a.run.app/get_soil_moisture_20237
 ## Contributors 
 - Samikshya Subedi
 - Tzu-Yu Ma  
