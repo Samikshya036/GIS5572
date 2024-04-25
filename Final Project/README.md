@@ -20,9 +20,9 @@ This app aims to provide Minnesota corn growers with updated information on grow
 - ET: [ET Data URL]
 - Soil Moisture:
 
-  Please manually replace `<date>` with the desired year and month, and copy-paste it into your browser's address bar:
+  After clicking [Soil Moisture URL](https://googlecloudrun-nvrttyom5q-uc.a.run.app/get_soil_moisture_<date>)
 
-  https://googlecloudrun-nvrttyom5q-uc.a.run.app/get_soil_moisture_<date>
+  Please manually replace `<date>` with the desired year and month in your browser's address bar
 
   Available date range: 20237-20244
 
