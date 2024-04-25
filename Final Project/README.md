@@ -18,10 +18,34 @@ This app aims to provide Minnesota corn growers with updated information on grow
 ## Data URLs for GeoJson
 - AGDD: [AGDD Data URL](https://googlecloudrun-nvrttyom5q-uc.a.run.app/get_agdd_idw)
 - ET: [ET Data URL]
-- Soil Moisture: [Soil Moisture Data URL](https://googlecloudrun-nvrttyom5q-uc.a.run.app/get_soil_moisture_20237)
-  
-  ```python
-  #  URL  "20237"
+- Soil Moisture:
+
+  <select id="dateSelect">
+    <option value="20237">20237</option>
+    <option value="20238">20238</option>
+    <option value="20239">20239</option>
+    <option value="202310">202310</option>
+    <option value="202311">202311</option>
+    <option value="202312">202312</option>
+    <option value="20241">20241</option>
+    <option value="20242">20242</option>
+    <option value="20243">20243</option>
+    <option value="20244">20244</option>
+  </select>
+
+  <button onclick="generateURL()">Generate URL</button>
+
+  <p id="generatedURL"></p>
+
+  <script>
+    function generateURL() {
+      var selectedDate = document.getElementById("dateSelect").value;
+      var baseURL = "https://googlecloudrun-nvrttyom5q-uc.a.run.app/get_soil_moisture_";
+      var url = baseURL + selectedDate;
+      document.getElementById("generatedURL").textContent = "Generated URL: " + url;
+    }
+  </script>
+
 
 
 ## Contributors 
