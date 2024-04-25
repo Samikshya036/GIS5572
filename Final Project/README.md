@@ -20,16 +20,8 @@ This app aims to provide Minnesota corn growers with updated information on grow
 - ET: [ET Data URL]
 - Soil Moisture:
 
-  - [20237 ![Generate URL](https://img.shields.io/badge/Generate%20URL-Click%20Here-blue)](https://googlecloudrun-nvrttyom5q-uc.a.run.app/get_soil_moisture_20237)
-  - [20238 ![Generate URL](https://img.shields.io/badge/Generate%20URL-Click%20Here-blue)](https://googlecloudrun-nvrttyom5q-uc.a.run.app/get_soil_moisture_20238)
-  - [20239 ![Generate URL](https://img.shields.io/badge/Generate%20URL-Click%20Here-blue)](https://googlecloudrun-nvrttyom5q-uc.a.run.app/get_soil_moisture_20239)
-  - [202310 ![Generate URL](https://img.shields.io/badge/Generate%20URL-Click%20Here-blue)](https://googlecloudrun-nvrttyom5q-uc.a.run.app/get_soil_moisture_202310)
-  - [202311 ![Generate URL](https://img.shields.io/badge/Generate%20URL-Click%20Here-blue)](https://googlecloudrun-nvrttyom5q-uc.a.run.app/get_soil_moisture_202311)
-  - [202312 ![Generate URL](https://img.shields.io/badge/Generate%20URL-Click%20Here-blue)](https://googlecloudrun-nvrttyom5q-uc.a.run.app/get_soil_moisture_202312)
-  - [20241 ![Generate URL](https://img.shields.io/badge/Generate%20URL-Click%20Here-blue)](https://googlecloudrun-nvrttyom5q-uc.a.run.app/get_soil_moisture_20241)
-  - [20242 ![Generate URL](https://img.shields.io/badge/Generate%20URL-Click%20Here-blue)](https://googlecloudrun-nvrttyom5q-uc.a.run.app/get_soil_moisture_20242)
-  - [20243 ![Generate URL](https://img.shields.io/badge/Generate%20URL-Click%20Here-blue)](https://googlecloudrun-nvrttyom5q-uc.a.run.app/get_soil_moisture_20243)
-  - [20244 ![Generate URL](https://img.shields.io/badge/Generate%20URL-Click%20Here-blue)](https://googlecloudrun-nvrttyom5q-uc.a.run.app/get_soil_moisture_20244)
+  [Generate Soil Moisture URL](https://googlecloudrun-nvrttyom5q-uc.a.run.app/get_soil_moisture)
+
 
 
 ## Contributors 
