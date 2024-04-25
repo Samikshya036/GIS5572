@@ -19,8 +19,8 @@ This app aims to provide Minnesota corn growers with updated information on grow
 - AGDD: [AGDD Data URL](https://googlecloudrun-nvrttyom5q-uc.a.run.app/get_agdd_idw)
 - ET: [ET Data URL]
 - Soil Moisture:
-
-  After clicking [Soil Moisture URL](https://googlecloudrun-nvrttyom5q-uc.a.run.app/get_soil_moisture_<date>)
+  ```python
+  https://googlecloudrun-nvrttyom5q-uc.a.run.app/get_soil_moisture_<date>
 
   Please manually replace `<date>` with the desired year and month in your browser's address bar
 
