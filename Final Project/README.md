@@ -28,10 +28,8 @@ This app aims to provide Minnesota corn growers with updated information on grow
 
   For example:
   
-  ```plaintext
+  ```python
   https://googlecloudrun-nvrttyom5q-uc.a.run.app/get_soil_moisture_20237
-
-
 ## Contributors 
 - Samikshya Subedi
 - Tzu-Yu Ma  
