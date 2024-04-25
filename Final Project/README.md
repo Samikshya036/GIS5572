@@ -48,6 +48,7 @@ This app aims to provide Minnesota corn growers with updated information on grow
 
 
 
+
 ## Contributors 
 - Samikshya Subedi
 - Tzu-Yu Ma  
