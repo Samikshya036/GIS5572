@@ -26,6 +26,12 @@ This app aims to provide Minnesota corn growers with updated information on grow
 
   Available date range: 20237-20244
 
+  For example:
+  
+  ```plaintext
+  https://googlecloudrun-nvrttyom5q-uc.a.run.app/get_soil_moisture_20237
+
+
 ## Contributors 
 - Samikshya Subedi
 - Tzu-Yu Ma  
