@@ -26,7 +26,7 @@ This app aims to provide Minnesota corn growers with updated information on grow
   Please manually replace `<date>` with the desired year and month in your browser's address bar
 
 
-  Available date range: 20237-20244 July 2023 - April 2024
+  Available date range: 20237-20244 (July 2023 - April 2024)
 
   For example:
   
