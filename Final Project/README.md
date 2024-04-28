@@ -14,7 +14,7 @@ This app aims to provide Minnesota corn growers with updated information on grow
 - AGDD: 
   ```python
   https://googlecloudrun-nvrttyom5q-uc.a.run.app/get_agdd_idw
-  
+  ```
   In the app, we offer data for the previous growing season, spanning from **April 2023 to September 2023**. We employed Inverse Distance Weighted (IDW) interpolation to extrapolate data from 153 observation sites across the entirety of Minnesota.
 
   Our [Accuracy Assessment.ipynb](https://github.com/TzuYuMa/Corn/blob/main/Final%20Project/Accuracy%20Assessment.ipynb) concluded that IDW provided the most dependable results.
