@@ -10,14 +10,9 @@ This app aims to provide Minnesota corn growers with updated information on grow
 - Ensure data accuracy and seamless integration of varied datasets within a PostgreSQL database.
 - Maintain user-friendly access and support real-time updates.
 
-## Data Sources 
-- **IEM**: Daily Min/Max temperature data, Minnesota.
-- **NASA SMAP**: Soil Moisture, Minnesota.
-- **TerraClimate**: Actual Evapotranspiration, Global.
-
 ## Data URLs for GeoJson
 - AGDD: [AGDD Data URL](https://googlecloudrun-nvrttyom5q-uc.a.run.app/get_agdd_idw)
-
+  In the app, we offer data for the previous growing season, spanning from *April 2023 to September 2023*. We employed Inverse Distance Weighted (IDW) interpolation to extrapolate data from 153 observation sites across the entirety of Minnesota. Our accuracy assessment concluded that IDW provided the most dependable results.
 - ET: [ET Data URL]
 - Soil Moisture:
   ```python
@@ -32,6 +27,11 @@ This app aims to provide Minnesota corn growers with updated information on grow
   
   ```plaintext
   https://googlecloudrun-nvrttyom5q-uc.a.run.app/get_soil_moisture_20237
+## Data Sources 
+- **IEM**: Daily Min/Max temperature data.
+- **NASA SMAP**: Soil Moisture.
+- **TerraClimate**: Actual Evapotranspiration.
+  
 ## Contributors 
 - Samikshya Subedi
 - Tzu-Yu Ma  
