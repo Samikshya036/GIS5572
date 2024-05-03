@@ -20,7 +20,7 @@ def database_to_geojson(table_name):
         host = os.environ.get("34.31.152.38"),
         database = os.environ.get("gis5572"),
         user = os.environ.get("postgres"),
-        password = os.environ.get("sami@2010"),
+        password = os.environ.get("%"),
         port = os.environ.get("5432"),
     )
     # retrieve the data
