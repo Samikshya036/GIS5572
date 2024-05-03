@@ -17,11 +17,11 @@ def index():
 def database_to_geojson(table_name):
         # create connection to the DB
     conn = psycopg2.connect(
-        host = os.environ.get("DB_HOST"),
-        database = os.environ.get("DB_NAME"),
-        user = os.environ.get("DB_USER"),
-        password = os.environ.get("DB_PASS"),
-        port = os.environ.get("DB_PORT"),
+        host = os.environ.get("34.31.152.38"),
+        database = os.environ.get("gis5572"),
+        user = os.environ.get("postgres"),
+        password = os.environ.get("%"),
+        port = os.environ.get("5432"),
     )
     # retrieve the data
     with conn.cursor() as cur:
@@ -47,20 +47,10 @@ def database_to_geojson(table_name):
 # create the data route
 
 @app.route('/get_agdd_20235_20239', methods=['GET'])
-def get_agdd_idw_geojson():
+def get_et_idw_geojson():
     # call our general function
-    agdd_idw = database_to_geojson("samp_agdd_idw")
-    return agdd_idw
-
-
-@app.route('/get_soil_moisture_<date>', methods=['GET'])
-def get_soil_moisture_geojson(date):
-    # call our general function with the provided date
-    sm = database_to_geojson("samp_soil_moisture_" + date)
-    return sm
-
-
-
+    agdd_idw = database_to_geojson("et2023_idw_point")
+    return et_idw
 
 if __name__ == "__main__":
     app.run(debug=True, host="0.0.0.0", port=int(os.environ.get("PORT", 8080)))
