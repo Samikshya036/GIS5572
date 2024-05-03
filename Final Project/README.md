@@ -18,7 +18,7 @@ This app aims to provide Minnesota corn growers with updated information on grow
   In the app, we offer data for the previous growing season, spanning from **April 2023 to September 2023**. We employed Inverse Distance Weighted (IDW) interpolation to extrapolate data from 153 observation sites across the entirety of Minnesota.
 
   Our [Accuracy Assessment](https://github.com/TzuYuMa/Corn/tree/main/Final%20Project/Accuracy%20Assessment) concluded that IDW provided the most dependable results.
-- ET: [ET Data URL]
+- ET: [[ET Data URL](https://googlecloudrun1-ubtvfytuvq-uc.a.run.app/et_points)]
 - Soil Moisture:
   ```python
   https://googlecloudrun-nvrttyom5q-uc.a.run.app/get_soil_moisture_<date>
