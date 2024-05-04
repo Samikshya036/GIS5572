@@ -13,7 +13,7 @@ This app aims to provide Minnesota corn growers with updated information on grow
 ## Data URLs for GeoJson
 - AGDD: 
   ```python
-  https://googlecloudrun-nvrttyom5q-uc.a.run.app/get_agdd_idw
+  https://googlecloudrun-nvrttyom5q-uc.a.run.app/get_agdd_minnesota
   ```
   In the app, we offer data for the previous growing season, spanning from **April 2023 to September 2023**. We employed Inverse Distance Weighted (IDW) interpolation to extrapolate data from 153 observation sites across the entirety of Minnesota.
 
