@@ -2,7 +2,7 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/TzuYuMa/Corn?style=for-the-badge)
 
 ## Overview  
-This app aims to provide Minnesota corn growers with updated information on growing degree days (AGDD), soil moisture, and reference evapotranspiration (ET). Selecting the desire area to download data with CSV or PDF file, or you can find the [Data URLs for GeoJson](#data-urls-for-geojson) Utilizing GeoJSON format from APIs. This supports agricultural decision-making in Minnesota by facilitating the comparison of various models for accurate analysis.
+This app aims to provide Minnesota corn growers with updated information on growing degree days (AGDD), soil moisture, and reference evapotranspiration (ET). Selecting the desire area to download data with CSV or PDF file, or you can find the [Data URLs for GeoJson](#data-urls-for-geojson) Utilizing GeoJSON format from APIs. This supports agricultural decision-making in Minnesota by facilitating the comparison of various interpolation models for accurate analysis.
 
 ## Objectives  
 - Develop a system to calculate and map AGDD, ET, and soil moisture for Minnesota Corn Growers.
