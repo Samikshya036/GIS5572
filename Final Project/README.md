@@ -13,7 +13,7 @@ This app aims to provide Minnesota corn growers with updated information on grow
 ## Data URLs for GeoJson
 - AGDD: 
   ```python
-  https://googlecloudrun-nvrttyom5q-uc.a.run.app/get_agdd_minnesota
+  https://googlecloudrun-nvrttyom5q-uc.a.run.app/agdd/minnesota
   ```
   In the app, we offer data for the previous growing season, spanning from **April 2023 to September 2023**. We employed Inverse Distance Weighted (IDW) interpolation to extrapolate data from 153 observation sites across the entirety of Minnesota.
 
@@ -21,7 +21,7 @@ This app aims to provide Minnesota corn growers with updated information on grow
 - ET: [[ET Data URL](https://googlecloudrun1-ubtvfytuvq-uc.a.run.app/et_points)]
 - Soil Moisture:
   ```python
-  https://googlecloudrun-nvrttyom5q-uc.a.run.app/get_soil_moisture_<date>
+  https://googlecloudrun-nvrttyom5q-uc.a.run.app/soil_moisture/<date>
   ```
   Please manually replace `<date>` with the desired year and month in your browser's address bar
 
@@ -31,7 +31,7 @@ This app aims to provide Minnesota corn growers with updated information on grow
   For example:
   
   ```plaintext
-  https://googlecloudrun-nvrttyom5q-uc.a.run.app/get_soil_moisture_20237
+  https://googlecloudrun-nvrttyom5q-uc.a.run.app/soil_moisture/20237
 ## Data Sources 
 - **IEM**: Daily Min/Max temperature data.
 - **NASA SMAP**: Soil Moisture.
